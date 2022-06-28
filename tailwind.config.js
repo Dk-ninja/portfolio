@@ -5,9 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-    fontFamily:{
-      signature: ["Great vibes"]
-    }
+      fontFamily: {
+        signature: ["Recursive"]
+      }
     },
   },
   plugins: [],

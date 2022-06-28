@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div
             name="home"
-            className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+            className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 p-10"
         >
 
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-11 md:flex-row ">
@@ -15,17 +15,16 @@ const Home = () => {
                     <img
                         src={HeroImage}
                         alt="my profile"
-                        className="rounded-2xl mx-auto w-2/5 md:w-full"
+                        className="rounded-2xl mx-auto w-2/5 mt-11 md:w-full"
                     />
                 </div>
-                <div className="flex flex-col h-full p-10 items-center justify-center">
-                    <h2 className="text-4xl sm:text-7xl mt-7 font-bold text-white ">
-                        I'm a FrontEnd Developer
+                <div className="flex flex-col h-full p-10 items-center md:justify-end">
+
+                    <h2 className="text-2xl sm:text-7xl mt-1 font-bold text-white font-signature">
+                        Front-End Developer
                     </h2>
-                    <p className="text-gray-500 py-6 max-w-md ">
-                        I have 8 years of experience building and desgining software.
-                        Currently, I love to work on web application using technologies like
-                        React, Tailwind, Next JS and GraphQL.
+                    <p className="text-gray-500 py-3 max-w-md ">
+                        Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach
                     </p>
 
                     <div>
