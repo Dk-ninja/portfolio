@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div
             name="home"
-            className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
+            className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
 
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row ">
@@ -24,7 +24,7 @@ const Home = () => {
                         Front-End Developer
                     </h2>
                     <p className="text-gray-500 py-3 max-w-md ">
-                        Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach
+                        Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.
                     </p>
 
                     <div>
